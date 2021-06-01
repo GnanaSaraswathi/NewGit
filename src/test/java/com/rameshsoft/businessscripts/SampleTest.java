@@ -16,6 +16,7 @@ public class SampleTest {
 		driver.manage().window().maximize();
 		driver.get("https://www.rameshsoft.com");
 		Thread.sleep(3000);
+                System.out.println("Person 2 changes...");
 		driver.close();
 		
 	}
