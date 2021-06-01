@@ -10,7 +10,7 @@ public class SampleTestTwo {
 
 	@Test
 	public static void testTwo() throws InterruptedException {
-		
+		System.out.println("Person 2 modifications...");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		System.out.println("Browser launched successfully");
