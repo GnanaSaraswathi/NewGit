@@ -13,6 +13,7 @@ public class SampleTestTwo {
 		System.out.println("Person 2 modifications...");
 		System.out.println("Person 1 modifications...");
 		System.out.println("Person 1 modifications...");
+                System.out.println("Person 2 modification...");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		System.out.println("Browser launched successfully");
